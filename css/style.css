@@ -807,15 +807,19 @@ ul {
 }
 
 .in-name {
+    color: white;
 }
 .in-phone {
+    color: white;
 }
 .in-main {
+    color: white;
 }
 .in-message {
     padding-top: 10px;
     border-radius: 20px;
     height: 150px;
+    color: white;
     resize: none;
 }
 .form__btn-submit {
