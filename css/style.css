@@ -36,6 +36,10 @@ ul {
     list-style: none;
 }
 
+::placeholder {
+    color: white !important;
+{
+    
 .section-title {
     font-family: "Proxima Nova Bl";
     font-size: 3em;
