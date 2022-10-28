@@ -926,6 +926,9 @@ ul {
     .customer-nt-container {
         padding: 14px;
     }
+    .faq {
+        padding: 20px;
+    }
 }
 
 @media (max-width: 990px) {
@@ -964,6 +967,10 @@ ul {
     }
     .ub-container {
         margin-left: 8vw;
+    }
+    .contact-us {
+        padding: 20px;
+        
     }
 }
 
