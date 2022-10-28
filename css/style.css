@@ -10,10 +10,8 @@
 * {
     margin: 0;
     padding: 0;
-    /* outline: 1px solid white; */
 }
 
-/* html, */
 body {
     font-family: "Proxima Nova", "sans-serif";
     background-color: #24263f;
@@ -21,7 +19,6 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-x: center;
-    background-position-y: auto;
     overflow-x: hidden;
 }
 
@@ -54,6 +51,10 @@ ul {
 
 .header {
     margin-top: 0;
+}
+
+.header-header {
+    display: none;
 }
 
 /* logo */
@@ -145,8 +146,7 @@ ul {
 
 /* title */
 .header-title {
-    margin-top: 335px;
-    margin-top: 12w;
+    margin-top: 12vw;
     font-family: "Proxima Nova Lt";
     font-size: 63px;
     line-height: 77px;
@@ -268,6 +268,7 @@ ul {
     margin-top: -45vw;
 }
 .wcu-container-margin {
+    margin-left: 3.5vw;
 }
 
 /* rectangle */
@@ -332,7 +333,6 @@ ul {
     letter-spacing: 0em;
     text-align: left;
     padding: 0;
-    align-items: top;
 }
 
 .wcu-text-container {
@@ -340,7 +340,6 @@ ul {
 }
 
 .wcu-item-container {
-    align-items: top;
 }
 
 .wcu-list__title {
@@ -468,7 +467,7 @@ ul {
 
 /* tech list */
 .tech-list {
-    padding: 0 0 0 45px;
+    padding: 0 0 0 15px;
 }
 .tech-list__item {
     padding: 10px 20px;
@@ -521,6 +520,10 @@ ul {
 /* partners */
 .partners {
     margin-bottom: 30vw;
+}
+
+.partners-header {
+    display: none;
 }
 
 .container-partners {
@@ -702,7 +705,7 @@ ul {
     width: 171px;
     height: 45px;
     border-radius: 50px;
-    padding: 11px 23px 11px 23px;  
+    padding: 11px 23px 11px 23px;
 }
 
 .blog-list {
@@ -750,22 +753,6 @@ ul {
 
 /*contact-us */
 
-/* .cu-rect {
-    position: absolute;
-    background-color: var(--main-aqua-color);
-    margin-left: 0;
-    margin-top: 50px;
-    width: 120%;
-    height: 100%;
-    border-radius: 61px;
-    -webkit-transform: skew(-8deg, 0);
-    -moz-transform: skew(-8deg, 0);
-    -o-transform: skew(-8deg, 0);
-    margin-bottom: 0;
-    z-index: -1;
-   
-}
-*/
 .contact-us {
     background-image: url("../img/svg/contact_us/cubg.svg");
     background-repeat: no-repeat;
@@ -774,11 +761,6 @@ ul {
 
 .cu-title {
 }
-
-/* .cu-bg-color {
-    background-color: var(--main-aqua-color);
-   
-} */
 
 .cu-p {
     font-family: "Proxima Nova Lt";
@@ -855,8 +837,6 @@ ul {
 .custom-checkbox:hover {
     cursor: pointer;
     outline: 1px solid var(--as-button-clr);
-    /* border-radius: 6px;
-    padding: 9px; */
 }
 
 .form__checkbox:checked ~ .custom-checkbox {
@@ -865,9 +845,6 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgba(165, 65, 201, 0.2);
-    /* border: 2px solid var(--as-button-clr);
-    border-radius: 6px;
-    padding: 9px; */
 }
 
 /* form */
@@ -879,8 +856,11 @@ ul {
     .wps__arrow-link {
         max-width: 10%;
     }
-    .wps__customer-img {
-        max-width: auto;
+}
+
+@media (max-width: 440px) {
+    .wps__arrow-link {
+        max-width: 10%;
     }
 }
 
@@ -908,6 +888,10 @@ ul {
         margin-left: 10px;
     }
 
+    .t-title__p {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
     .services-list,
     .wcu-list,
     .tech-list {
@@ -958,6 +942,10 @@ ul {
         padding-bottom: 5px;
     }
 
+    .tech-list__item {
+        padding: 10px 30px;
+    }
+
     .header-p {
         margin-bottom: 100px;
     }
@@ -970,7 +958,6 @@ ul {
     }
     .contact-us {
         padding: 20px;
-        
     }
 }
 
