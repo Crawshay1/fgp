@@ -818,7 +818,7 @@ ul {
 }
 
 .form__checkbox {
-    display: none;
+    display: unset;
 }
 
 .checkbox-label {
